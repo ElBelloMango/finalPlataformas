@@ -10,7 +10,7 @@ GET IN TOUCH --------------CONTACTO
 
 
 index.html - HOME
-about.html
-services.html
-benefits.html
-contact.html
+acercade.html
+servicios.html
+beneficios.html
+contacto.html
