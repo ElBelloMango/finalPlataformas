@@ -103,10 +103,10 @@ a.navbar-brand {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #6887ff, #02b875);
-    background: -webkit-linear-gradient(to right, #6887ff, #02b875);
-    background: -moz-linear-gradient(to right, #6887ff, #02b875);
-    background: -o-linear-gradient(to right, #6887ff, #02b875);
+    background: linear-gradient(to right, #6e6e6e, #d3a200);
+    background: -webkit-linear-gradient(to right, #6e6e6e, #d3a200);
+    background: -moz-linear-gradient(to right, #6e6e6e, #d3a200);
+    background: -o-linear-gradient(to right, #6e6e6e, #d3a200);
     opacity: 0.5;
     z-index: -1;
 }
@@ -128,10 +128,10 @@ a.navbar-brand {
 
 .btn-agile {
     color: #fff;
-    background: linear-gradient(to right, #6887ff, #02b875);
-    background: -webkit-linear-gradient(to right, #6887ff, #02b875);
-    background: -moz-linear-gradient(to right, #6887ff, #02b875);
-    background: -o-linear-gradient(to right, #6887ff, #02b875);
+    background: linear-gradient(to right, #ffa115, #a9996d);
+    background: -webkit-linear-gradient(to right, #ffa115, #a9996d);
+    background: -moz-linear-gradient(to right, #ffa115, #a9996d);
+    background: -o-linear-gradient(to right, #ffa115, #a9996d);
     border: none;
     border-radius: 0;
     font-size: 1.1em;
@@ -185,7 +185,7 @@ ul.social-iconsv2 li:last-child {
 /* about bottom */
 
 .abbot-main {
-    background: #6887ff;
+    background: #6e6e6e;
 }
 
 h3.stat-title {
@@ -287,7 +287,7 @@ h3.stat-title {
 
 .services-top {
     padding: 3em 5em;
-    background: #02b875;
+    background: #d3a200;
 }
 
 .services-head {
@@ -439,7 +439,7 @@ h2.stat-title.text-white {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(104, 135, 255, 0.79);
+    background: rgb(123, 67, 110, 0.78);
     z-index: -1;
 }
 
@@ -458,7 +458,7 @@ h2.stat-title.text-white {
 }
 
 .contact-right-w3ls span {
-    background: #02b875;
+    background: #ffcd29;
     width: 60px;
     height: 60px;
     line-height: 60px;
