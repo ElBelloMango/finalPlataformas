@@ -10,7 +10,7 @@ function asignarVariables()
 {
     secciones["index.html"] = document.getElementById("index.html");
     secciones["acercade.html"] = document.getElementById("acercade.html");
-    secciones["servicios.html"] = document.getElementById("servicios.html");
+    secciones["personajes.html"] = document.getElementById("personajes.html");
     secciones["beneficios.html"] = document.getElementById("beneficios.html");
     secciones["contacto.html"] = document.getElementById("contacto.html");
 }
