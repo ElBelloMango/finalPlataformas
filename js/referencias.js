@@ -4,6 +4,7 @@ function init()
 {
     asignarVariables();
     asignarRutas();
+    rotacion();
 }
 
 function asignarVariables()
