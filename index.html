@@ -33,11 +33,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!--webfonts-->
 	<link href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 	<!--//webfonts-->
+	<script src="js/pristine.js"></script>
+    <script src="js/pristine.min.js"></script>
 </head>
 
 <body>
 	<!-- header -->
 	<script src="js/referencias.js"></script>
+	<script src="js/logeo.js"></script>
 	<header>
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
@@ -57,20 +60,20 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<div class="container1">
 							<label for="show" class="close-btn fas fa-times" title="close"></label>
 							<div class="text">Inicio de Sesion</div>
-							<form action="#" class="form1">
+							<form novalidate method="post" class="form1" id="form-demo">
 								<div class="data">
 									<label>Correo</label>
-									<input type="text" required>
+									<input type="text" name="correo" required>
 								</div>
 								<div class="data">
-									<label>Contreseña</label>
-									<input type="password" required>
+									<label>Contraseña</label>
+									<input type="password" name="clave1" required>
 								</div>
 								<div class="btn">
 									<button type="submit">Iniciar Sesion</button>
 								</div>
 								<div class="signup-link">
-									Todavia no eres un miembro? <br> <a href="#">Registrate Ahora!</a></div>
+									Todavia no eres un miembro? <br> <a href="registro.html">Registrate Ahora!</a></div>
 							</form>
 						</div>
 					</li>
