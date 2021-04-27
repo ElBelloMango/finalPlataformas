@@ -1,4 +1,5 @@
 let frm,correo,pst;
+var usuariologeado=false;
 
 function logeo(){
     frm = document.getElementById("form-demo");
@@ -6,13 +7,14 @@ function logeo(){
     frm.addEventListener("submit",function(event){
         event.preventDefault();
         if (pst.validate()) {
-            procesardatos();
+            procesardatos(); 
         }
         else{
             frm.classList.add("was-validated");
         }
         
     });
+    
 }
 
 function procesardatos(){
@@ -24,7 +26,8 @@ function procesardatos(){
         }).then(function (response) {
             return response.json();
         }).then(function (json) {
-            validarLocal(json);
+            usuariologeado=validarLocal(json);
+            logeado = usuariologeado;
         }).catch(function (err) {
             Error
         });
@@ -35,9 +38,12 @@ function validarLocal(json)
 {
     let usuario = JSON.parse(localStorage.getItem("usuario"));
     if (usuario.clave1==json.clave1){
-        location.href = "acercade.html";
+        // location.href = "acercade.html";
+        alert("Inicio de sesion exitoso");
+        return true;
     }
     else{
         alert("Clave incorrecta");
+        return false;
     }
 }
