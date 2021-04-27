@@ -1,3 +1,4 @@
+// window.onload=rotacion;
 mis_imagenes = new Array("images/PersonajesQueridos.jpg", "images/Erwin.png", "images/Levi.png", "images/Mikasa.png", "images/Historia.png")
 mi_imagen = 0
 imgCt = mis_imagenes.length

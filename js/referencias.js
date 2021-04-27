@@ -4,8 +4,11 @@ function init()
 {
     asignarVariables();
     asignarRutas();
+    if(window.location.pathname=="/personajes.html")
+    {
+        rotacion();
+    }
     logeo();
-    rotacion();
 }
 
 function asignarVariables()
