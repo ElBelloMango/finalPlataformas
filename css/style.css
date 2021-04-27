@@ -68,7 +68,7 @@ body a:hover {
 .show-btn, .container1{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 36%;
   transform: translate(-50%, -50%);
   color: black;
 }
@@ -160,7 +160,7 @@ input[type="checkbox"]{
 .form1 .btn button{
   height: 100%;
   width: 100%;
-  background: aliceblue;
+  background:#fff1c8;
   border: none;
   color: black;
   font-size: 18px;
