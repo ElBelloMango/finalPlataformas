@@ -10,7 +10,7 @@ function init()
     {
         rotacion();
     }
-    if(window.location.pathname=="/index.html")
+    if(window.location.pathname=="/index.html" || window.location.pathname=="/")
     {
         logeado=false;
         logeo();
