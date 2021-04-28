@@ -1,4 +1,4 @@
-var control=["acercade.html","personajes.html","beneficios.html","contacto.html"];
+var control=["acercade.html","personajes.html","beneficios.html","contacto.html", "renderizarAPI.html"];
 var logeado = true;
 window.onload=init;
 var secciones = [];
@@ -15,6 +15,10 @@ function init()
         logeado=false;
         logeo();
     }
+    if(window.location.pathname=="/renderizarAPI.html")
+    {
+        capturarDatos();
+    }
     
 }
 
@@ -25,6 +29,7 @@ function asignarVariables()
     secciones["personajes.html"] = document.getElementById("personajes.html");
     secciones["beneficios.html"] = document.getElementById("beneficios.html");
     secciones["contacto.html"] = document.getElementById("contacto.html");
+    secciones["renderizarAPI.html"] = document.getElementById("renderizarAPI.html");
 }
 
 function asignarRutas()

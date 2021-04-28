@@ -714,6 +714,22 @@ form.contact-wthree .form-control {
 
 /*-- //bottom-to-top --*/
 
+/* display tipo grid */
+.grid_API{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background: #e6b800;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+/* //display tipo grid */
+
 /* -- Responsive code -- */
 
 @media screen and (max-width: 1920px) {
