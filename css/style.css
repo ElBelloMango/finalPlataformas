@@ -636,6 +636,12 @@ form.contact-wthree .form-control {
     font-size: 1.5em;
 }
 
+
+.wppBtn{
+    position:fixed;
+    top:90%;
+    left:1%;
+}
 /*--//contact--*/
 
 .cpy-right {
