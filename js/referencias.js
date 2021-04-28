@@ -17,6 +17,7 @@ function init()
     }
     if(window.location.pathname=="/renderizarAPI.html")
     {
+        alert("Esta API recibe 25 peticiones por hora");
         capturarDatos();
     }
     
