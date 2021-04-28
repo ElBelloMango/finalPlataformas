@@ -1,3 +1,5 @@
+var control=["acercade.html","personajes.html","beneficios.html","contacto.html"];
+var logeado = true;
 window.onload=init;
 var secciones = [];
 function init()
@@ -8,7 +10,12 @@ function init()
     {
         rotacion();
     }
-    logeo();
+    if(window.location.pathname=="/index.html")
+    {
+        logeado=false;
+        logeo();
+    }
+    
 }
 
 function asignarVariables()
@@ -28,8 +35,25 @@ function asignarRutas()
     }
 }
 
+function controlAcceso(indice){
+    for (var i in control)
+    {
+        if (control[i]==indice) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function navegacion(event) 
 {
     var id = event.target.id;
-    location.href = id;
+    console.log("Control Acceso: "+controlAcceso(id));
+    console.log("logged: "+logeado);
+    if (controlAcceso(id) && logeado || id == "index.html"){
+        location.href = id;
+    }
+    else{
+        alert("No estas logueado");
+    }
 }
