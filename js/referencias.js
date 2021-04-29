@@ -6,6 +6,7 @@ function init()
 {
     asignarVariables();
     asignarRutas();
+    alert(window.location.pathname);
     if(window.location.pathname=="/personajes.html")
     {
         rotacion();
