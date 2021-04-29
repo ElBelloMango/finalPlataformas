@@ -8,7 +8,7 @@ function capturarDatos(){
     }).then(function (json) {
         pintarDatos(json);
     }).catch(function (err) {
-        Error
+        console.log(err);
     });
 }
 
