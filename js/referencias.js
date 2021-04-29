@@ -6,15 +6,14 @@ function init()
 {
     asignarVariables();
     asignarRutas();
-    alert(window.location.pathname);
     if(window.location.pathname=="/personajes.html"||window.location.pathname=="/finalPlataformas/personajes.html")
     {
         rotacion();
     }
     if(window.location.pathname=="/index.html" || window.location.pathname=="/"||window.location.pathname=="/finalPlataformas/index.html"||window.location.pathname=="/finalPlataformas/")
     {
-        logeado=false;
-        logeo();
+        logeado=true;
+        // logeo();
     }
     if(window.location.pathname=="/renderizarAPI.html"||window.location.pathname=="/finalPlataformas/renderizarAPI.html")
     {
