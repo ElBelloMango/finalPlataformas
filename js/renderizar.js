@@ -1,4 +1,5 @@
 var resultado;
+window.onload = capturarDatos;
 function capturarDatos(){
     resultado = document.getElementById("resultado");
 
