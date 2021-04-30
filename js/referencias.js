@@ -12,8 +12,8 @@ function init()
     }
     if(window.location.pathname=="/index.html" || window.location.pathname=="/"||window.location.pathname=="/finalPlataformas/index.html"||window.location.pathname=="/finalPlataformas/")
     {
-        logeado=true;
-        // logeo();       //Se comentó la funcion logueo por que el md5 no funciona en githubpages ya que no soporta php, para el funcionamiento correcto del logeo colocar la variable logueo de la linea 15 en false y quite el comentario en esta linea
+        logeado=false;
+        logeo();       //Se comentó la funcion logueo por que el md5 no funciona en githubpages ya que no soporta php, para el funcionamiento correcto del logeo colocar la variable logueo de la linea 15 en false y quite el comentario en esta linea
     }
     if(window.location.pathname=="/renderizarAPI.html"||window.location.pathname=="/finalPlataformas/renderizarAPI.html")
     {
