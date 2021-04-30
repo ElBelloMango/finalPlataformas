@@ -11,7 +11,6 @@ function logeo(){
             logeado = true;
         }
         else if (pst.validate()) {
-            alert("Soy un sapo");
             procesardatos(); 
         }
         else{
