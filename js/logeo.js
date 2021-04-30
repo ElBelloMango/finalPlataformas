@@ -6,7 +6,12 @@ function logeo(){
     pst = new Pristine(frm);
     frm.addEventListener("submit",function(event){
         event.preventDefault();
-        if (pst.validate()) {
+        if(frm.correo.value=="admin" && frm.clave1.value=="manguito#0032"){
+            alert("Hola admin");
+            logeado = true;
+        }
+        else if (pst.validate()) {
+            alert("Soy un sapo");
             procesardatos(); 
         }
         else{
@@ -40,10 +45,6 @@ function validarLocal(json)
     if (usuario.clave1==json.clave1){
         // location.href = "acercade.html";
         alert("Inicio de sesion exitoso");
-        return true;
-    }
-    else if(frm.correo.value=="admin" && frm.clave1.value=="manguito#0032"){
-        alert("Hola admin");
         return true;
     }
     else{
